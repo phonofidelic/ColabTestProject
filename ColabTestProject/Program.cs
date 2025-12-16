@@ -22,5 +22,9 @@ Console.WriteLine("New branch");
 Console.WriteLine("Text from Fahiye");
 Console.WriteLine("Text from Micke");
 
+ChrisTestPerson chris = new("Christopher");
+chris.PrintName();
+Console.WriteLine("Text from Micke");
+
 
 var testClass = new TestClass();
