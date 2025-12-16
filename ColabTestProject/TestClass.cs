@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ColabTestProject
+﻿namespace ColabTestProject
 {
     internal class TestClass
     {
+        public int x { get; set; }
         public TestClass()
         {
+
             Console.WriteLine("Text from a TestClass");
         }
     }
